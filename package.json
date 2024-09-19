@@ -8,7 +8,9 @@
   },
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "prisma generate && node server.js"
+   
   },
   "keywords": [],
   "author": "",
